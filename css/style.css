@@ -1,0 +1,578 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.producto {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 183, 233, 1) 100%);
+    padding: 30px;
+    margin: 20px;
+}
+
+
+header {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 183, 233, 1) 100%);
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+#Pet {
+    display: flex;
+    color: blue;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 50px 50px 50px;
+    font-size: 22px;
+}
+
+#menu ul li a {
+    color: blue;
+    text-decoration: none;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+#menu ul li a #inicio {
+    font-size: 80px;
+}
+
+#carritos {
+    display: flex;
+    margin-left: auto;
+    flex-direction: row-reverse;
+    max-width: 50px;
+}
+
+#menu-1 {
+    background: radial-gradient(circle, rgb(169, 125, 161) 0%, rgba(148, 183, 233, 1) 100%);
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-1 ul {
+    display: inline;
+    margin: 1px 69px 83px;
+    font-size: 22px;
+}
+
+#menu-1 ul li {
+    display: inline;
+    margin: 50px 50px 50px;
+    font-size: 22px;
+}
+
+#menu-1 ul li a {
+    flex-direction: row;
+    align-items: flex-start;
+    color: blue;
+    text-decoration: none;
+    font-weight: 300;
+    margin-right: 150px;
+}
+
+
+
+.comida {
+    font-size: 30px;
+    margin: -45px;
+    height: 70px;
+}
+
+
+#fondo {
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    opacity: 1;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+h2 {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+
+form {
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"],
+button#editar-datos,
+button#buscar-marca-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#resultados-busqueda {
+    margin-top: 10px;
+}
+
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 82px;
+    gap: 66px;
+
+
+}
+
+/* style.css */
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a807a;
+}
+
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#registro1 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(252, 244, 187);
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Login  */
+/* Estilos generales */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1f1f1;
+}
+
+.contenedor-formularios {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contenedor-tabs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedor-tabs .tab {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contenedor-tabs .tab a {
+    display: block;
+    padding: 10px;
+    background-color: #e0e0e0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.contenedor-tabs .tab.active a {
+    background-color: #fff;
+}
+
+.contenido-tab>div {
+    display: none;
+}
+
+.contenido-tab>div:first-child {
+    display: block;
+}
+
+.contenedor-input {
+    margin-bottom: 15px;
+}
+
+.contenedor-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contenedor-input input[type="text"],
+.contenedor-input input[type="password"],
+.contenedor-input input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.forgot a {
+    color: #666;
+    text-decoration: none;
+}
+
+.button-block {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-block:hover {
+    background-color: #45a049;
+}
+
+/* Estilos de SweetAlert2 */
+.swal2-container {
+    z-index: 9999 !important;
+}
+
+
+/* estilos card - productos*/
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+/* estilos card - carrito */
+
+#listaProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 500px;
+}
+
+.card-item img {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-item button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Login-Registro */
+
+#login{
+        background-image: url('https://cdn.colombia.com/sdi/2020/07/30/cuales-son-diferencias-nutricionales-comidas-mascotas-846768.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+#register{
+    background-image: url('https://img.freepik.com/foto-gratis/pellets-superficie_144627-33676.jpg?w=1380&t=st=1688336152~exp=1688336752~hmac=f6d71d71e15034163483637ce20da511b658452a2667b4c9ed6a90cc35c78994');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 10px;
+
+}
+
+#cuenta{
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+}
+
+#cuenta1{
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+}
+
+#cuenta1 a{
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+#redes {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 183, 233, 1) 100%);
+    padding: 20px;
+    text-align: center;
+}
+
+#redes p {
+    margin-bottom: 10px;
+}
+
+#redes img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+  /* Estilos generales para la imagen de fondo */
+#fondo {
+    background-image: url("./img/fondo.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+  /* Media query para pantallas más pequeñas */
+@media (max-width: 767px) {
+    
+#fondo {
+    background-image: url("./img/fondo-mobile.png");
+    }
+}
+

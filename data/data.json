@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "marca": "Agility perro adulto",
+        "peso": "20 kilos",
+        "precio": "15000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/159452-1200-auto?v=638041088492470000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 2,
+        "marca": "Dog Chow perro adulto",
+        "peso": "21 kilos",
+        "precio": "17000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/158501-1200-auto?v=637801142734270000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 3,
+        "marca": "Pedigree perro adulto",
+        "peso": "21 kilos",
+        "precio": "22000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/159840-1200-auto?v=638139722771900000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 4,
+        "marca": "Royal Canin adulto",
+        "peso": "15 kilos",
+        "precio": "24000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/156787-1200-auto?v=637733563527070000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 5,
+        "marca": "Pro-plan perro adulto",
+        "peso": "15 kilos",
+        "precio": "25000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/158868-1200-auto?v=637896999252930000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 6,
+        "marca": "Dog Selection",
+        "peso": "8 kilos",
+        "precio": "18000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/160192-1200-auto?v=638174253960370000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 7,
+        "marca": "Balanced cachorros",
+        "peso": "20 kilos",
+        "precio": "22000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/158489-1200-auto?v=637801104657970000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 8,
+        "marca": "Excellent raza pequeña",
+        "peso": "15 kilos",
+        "precio": "19500",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/157158-1200-auto?v=637752142116100000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 9,
+        "marca": "Pedigree cachorros",
+        "peso": "21 kilos",
+        "precio": "17000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/159838-1200-auto?v=638139718690800000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 10,
+        "marca": "Dog Chow cachorros",
+        "peso": "x 21 Kilos",
+        "precio": "22000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/159221-1200-auto?v=637943695047570000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 11,
+        "marca": "Excellent gato adulto",
+        "peso": "15 kilos",
+        "precio": "32000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/157086-1200-auto?v=637752141763100000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 12,
+        "marca": "Pro-plan gato adulto",
+        "peso": "7.5 kilos",
+        "precio": "23000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/157456-1200-auto?v=637780269100630000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 13,
+        "marca": "Royal Canin gato",
+        "peso": "7.5 kilos",
+        "precio": "22800",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/156950-1200-auto?v=637735501137730000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 14,
+        "marca": "Whiskas sabor carne",
+        "peso": "10 kilos",
+        "precio": "12000",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/156755-1200-auto?v=637733563369400000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 15,
+        "marca": "Whiskas sabor atún",
+        "peso": "340 grs",
+        "precio": "750",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/157324-1200-auto?v=637752142880100000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 16,
+        "marca": "Agility gato sabor pollo",
+        "peso": "340 grs",
+        "precio": "700",
+        "imagen": "https://tiendademascotasar.vtexassets.com/arquivos/ids/157330-1200-auto?v=637752142908600000&width=1200&height=auto&aspect=true"
+    }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sweetalert.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+</head>
+<body id="login">
+
+    <header>
+        <h1 id="Pet">Pet Shop Patitas Felices</h1>
+        <nav id="menu">
+        <ul>
+            <li>
+                <a id="inicio" href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="productos.html">Productos</a>
+            </li>
+            <li>
+                <a href="register.html">Registrate</a>
+            </li>
+            <li>
+                <a href="login.html">Iniciar Sesión</a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label>Mail</label>
+            <input type="email" placeholder="..." id="email" required autofocus>
+            <label>Contraseña</label>
+            <input type="password" placeholder="..." id="password" required>
+            <input type="submit" value="Ingresar">
+        </form>
+        <p id="cuenta1">No tienes una cuenta? <a href="register.html">Registro</a></p>
+    </section> 
+
+    <script src="./js/sweetalert.min.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

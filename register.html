@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sweetalert.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Register</title>
+</head>
+<body id="register">
+
+    <header>
+        <h1 id="Pet">Pet Shop Patitas Felices</h1>
+        <nav id="menu">
+        <ul>
+            <li>
+                <a id="inicio" href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="productos.html">Productos</a>
+            </li>
+            <li>
+                <a href="register.html">Registrate</a>
+            </li>
+            <li>
+                <a href="login.html">Iniciar Sesión</a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Registro</h2>
+        <form id="signupForm">
+            <label>Nombre</label>
+            <input type="text" placeholder="..." id="name" required autofocus>
+            <label>Dirección</label>
+            <input type="text" placeholder="..." id="direction" required autofocus>
+            <label>Mail</label>
+            <input type="email" placeholder="..." id="email" required>
+            <label>Contraseña</label>
+            <input type="password" placeholder="..." id="password" required>
+            <input type="submit" value="Registro">
+        </form>
+        <p id="cuenta">Ya tienes una cuenta? <a href="login.html">Login</a></p>
+    </section>
+
+    <script src="./js/sweetalert.min.js"></script>
+    <script src="./js/register.js"></script>
+    
+</body>
+</html>
